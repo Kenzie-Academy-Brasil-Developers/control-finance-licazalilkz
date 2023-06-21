@@ -1,6 +1,6 @@
 const valuesCategory = ["Entrada", "Saída"];
 
-let insertedValues = [
+export let insertedValues = [
   {
     id: 1,
     value: 90.0,
@@ -15,5 +15,5 @@ let insertedValues = [
     id: 3,
     value: 15.5,
     categoryID: 0,
-  },
+  }
 ];

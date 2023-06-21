@@ -1,0 +1,24 @@
+.modal__controller{
+    width: 450px;
+    height: 370px;
+    padding: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal__container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.modal__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modal__controller::backdrop{
+    background-color: rgba(0, 0, 0, .90);
+}

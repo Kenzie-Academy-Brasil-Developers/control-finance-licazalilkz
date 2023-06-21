@@ -1,0 +1,19 @@
+.main__Summation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    background-color: var(--color-grey-5);
+    height: 50px;
+    border: 1.5px solid var(--fixed-white);
+    border-radius: 8px;
+
+    padding: 14px 16px;
+
+    width: 50vw;
+    height: 44px;
+
+    /* position: absolute;
+    left: 384px;
+    top: 227px; */
+}
